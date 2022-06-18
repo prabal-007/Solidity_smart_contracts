@@ -1,7 +1,8 @@
 // ICO contract
 //SPDX-License-Identifier: UNLICENSED
 
-pragma solidity >=0.5.0 <0.9.0; // ---------------------------------------------------------------------------- // EIP-20: ERC-20 Token Standard // https://eips.ethereum.org/EIPS/eip-20 // -----------------------------------------
+pragma solidity >=0.5.0 <0.9.0; 
+// EIP-20: ERC-20 Token Standard // https://eips.ethereum.org/EIPS/eip-20 // 
 
 interface ERC20Interface { function totalSupply() external view returns (uint); function balanceOf(address tokenOwner) external view returns (uint balance); function transfer(address to, uint tokens) external returns (bool success);
 
